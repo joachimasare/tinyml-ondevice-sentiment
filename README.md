@@ -7,7 +7,7 @@ This project explores different ways to reduce the size of a well known LLM Tiny
 
 `TinyBert_to_TinierBert.ipynb`: This notebook allows you to evaluate the loaded model, finetune it, fine-grain prune the model, conduct a sesnsitivity scan to determine optimal sparsity per layer, run k-means quantization on our model, and test how well doing both fine-grained pruning and k-means quantization work. 
 
-`Distilled_TinyBert_to_TinierBert.ipynb`: This notebook does the same as `TinyBert_to_TinierBert.ipynb`, we have it here for the purposes of showing our results from pruning and quantizing our distilled model. The model that is outputtrf by 
+`Distilled_TinyBert_to_TinierBert.ipynb`: This notebook does the same as `TinyBert_to_TinierBert.ipynb`, we have it here for the purposes of showing our results from pruning and quantizing our distilled model. The model that is outputted by 
 `Task_Distilled_Model_Production.ipynb` is used in this notebook.
 
 `Channel_Pruning.ipynb`: This notebook allows our results for structured pruning to be reproduced.
